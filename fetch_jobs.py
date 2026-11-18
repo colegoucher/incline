@@ -9,3 +9,4 @@ print("Total jobs: ", data["meta"]["total"])
 
 for job in data["jobs"]:
     print(job["title"], " - ", job["location"]["name"])
+    
